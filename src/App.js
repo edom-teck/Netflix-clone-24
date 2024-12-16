@@ -1,11 +1,10 @@
 import "./App.css";
+import Home from "./Page/Home/Home";
 
 function App() {
   return (
-    <div>
-      <h1>Hellooooooo</h1>
-      <h1>h1</h1>
-      <h1>h1</h1>
+    <div className="App">
+      <Home />
     </div>
   );
 }
